@@ -1,0 +1,28 @@
+.taskapp {
+  background: #eb3349;
+  background: -webkit-linear-gradient(to right, #f45c43, #eb3349);
+  background: linear-gradient(to right, #f45c43, #eb3349);
+
+  height: 60vh;
+  min-width: 50vw;
+  border-radius: 10px;
+  box-shadow: 0 10px 12px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+  font-family: monospace;
+  color: #4a569d;
+}
+@media (max-width: 430px) {
+  .taskapp {
+    width: 80vw;
+  }
+}
+@media (max-width: 730px) {
+  .taskapp {
+    width: 80vw;
+  }
+}

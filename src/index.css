@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #2bc0e4;
+  background: -webkit-linear-gradient(to right, #eaecc6, #2bc0e4);
+  background: linear-gradient(to right, #eaecc6, #2bc0e4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
